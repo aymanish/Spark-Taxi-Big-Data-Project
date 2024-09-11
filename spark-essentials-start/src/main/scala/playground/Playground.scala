@@ -7,7 +7,8 @@ import org.apache.spark.sql.types._
   * This is a small application that loads some manually inserted rows into a Spark DataFrame.
   * Feel free to modify this code as you see fit, fiddle with the code and play with your own exercises, ideas and datasets.
   *
-  * Daniel @ Rock the JVM
+  * Daniel @ Ro
+  * ck the JVM
   */
 object Playground extends App {
 
