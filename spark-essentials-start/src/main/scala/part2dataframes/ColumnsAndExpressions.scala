@@ -172,7 +172,7 @@ object ColumnsAndExpressions extends App {
   moviesGoodComedyDF3.show()
   
   // alternatively
-  val goodcomedy = moviesDF.select("Title", "IMDB_Rating")
+  val goodComedy = moviesDF.select("Title", "IMDB_Rating")
     .where("Major_Genre = 'Comedy' and IMDB_Rating > 6")
 
 }
