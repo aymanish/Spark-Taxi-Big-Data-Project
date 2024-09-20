@@ -155,7 +155,7 @@ object DataSources extends App {
   // every single line is considered a value in a single column
   //spark.read.text("src/main/resources/data/cars.parquet")
 
-  // READING FROM A REMOVE DB:
+  // READING FROM A REMOTE DB:
   // docker compose up -> spin up docker container to accept DB connections
   val employeesDF = spark.read
     .format("jdbc")
@@ -201,6 +201,8 @@ object DataSources extends App {
     .option("password", "docker")
     .option("dbtable", "public.movies")
     .save() // no path since remote
+
+
 
   // WRITE AS SNAPPY
   //val newMoviesDFParquet = newMoviesDF.write
