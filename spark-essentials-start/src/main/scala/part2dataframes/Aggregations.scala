@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions.{avg, col, count, countDistinct, min, stdd
 object Aggregations extends App {
 
   val spark = SparkSession.builder()
-    .appName("DF Columns and Expressions")
+    .appName("Aggregations")
     .config("spark.master", "local")
     .getOrCreate()
 

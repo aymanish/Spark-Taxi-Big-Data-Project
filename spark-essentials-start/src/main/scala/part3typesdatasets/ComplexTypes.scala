@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions.{array_contains, col, current_date, curren
 object ComplexTypes extends App {
 
   val spark = SparkSession.builder()
-    .appName("Joins")
+    .appName("Complex Types")
     .config("spark.master", "local")
     .getOrCreate()
 

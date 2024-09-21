@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions._
 object CommonTypes extends App {
 
   val spark = SparkSession.builder()
-    .appName("Joins")
+    .appName("Common Types")
     .config("spark.master", "local")
     .getOrCreate()
 
