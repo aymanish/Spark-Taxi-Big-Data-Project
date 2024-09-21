@@ -120,3 +120,34 @@ object Datasets extends App {
     .count().show()
 
 }
+
+
+// DOCKER SPARK SQL
+// COMMANDS
+ /*
+
+ show databases;
+ - get List of all databases.
+ create database rtjvm;
+ use rtjvm;
+  create table person(id integer, name string);
+
+ - ctrl l to clear sreeen
+
+ select * from persons - see table
+  insert into persons values (1, hrth), (2, y6tryu)
+
+  describe persons
+  describe extended persons
+  managed table - Spark is in charge of the data, the metadata, the schema, the tables.
+
+  external tables:
+
+  create table flights(origin string, destinatin string) using csv options(header true, path ""greg")
+  insert into flights values (hge, hrth), (htjyk, y6tryu)
+
+
+
+
+
+  */
